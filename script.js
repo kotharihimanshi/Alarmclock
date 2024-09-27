@@ -4,7 +4,7 @@ const setalarmbtn = document.querySelector("button");
 const content = document.querySelector(".content");
 
 let alarmTime = "", isAlarmSet = false;
-let ringtone = new Audio("./audio/ringtone.mp3");
+let ringtone = new Audio("./audio/ringtone.wav");
 
 // Populate hours, minutes, and AM/PM options
 for(let i = 12; i > 0; i--){
